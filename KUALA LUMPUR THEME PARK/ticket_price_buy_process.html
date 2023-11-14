@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KUALA LUMPUR THEME PARK</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="ticket_price_buy_process.css">
+</head>
+<body>
+    <h1 class="top">KUALA LUMPUR <span>THEME PARK</span></h1>
+
+        <form method="post" action="saveAdmission.php" name="regForm">
+            <h2 align="center">ADMISSION</h2>
+            <h3 align="center">CHOOSE YOUR TICKET </h3><br>
+    <table align="center" border="1">
+    <tr>
+        <th width="104">Name</td>
+        <td width="350"><input type="text" name="cusName" size="30"></td>
+    </tr>
+    <tr>
+        <th width="104">Contact</td>
+        <td width="350"><input type="text" name="cusContact" size="30">(e.g. 0116754367)</td>
+    </tr>
+    <tr>
+        <th width="104">Email</td>
+        <td width="350"><input type="text" name="cusEmail" size="30"></td>
+    </tr>
+    <tr>
+        <th width="104">Ticket Type</td>
+        <td width="350"><select name="ticket">
+            <option value="Malaysian">MALAYSIAN</option>
+            <option value="Non_Malaysian">NON-MALAYSIAN</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <th width="104">Quantity</th>
+        <td width="350"><input type="number" name="quantity" size="30"></td>
+    </tr>
+    <tr>
+        <th width="104">Date</th>
+        <td width="350"><input type="date" name="bookingdate" size="30"></td>
+    </tr>
+    <tr>
+        <td>&nbsp</td>
+        <td>&nbsp</td>
+    </tr>
+    <tr>
+        <td width="104"><input type="submit" name="submitBtn" value="Submit" style="cursor: pointer;"></td>
+        <td width="350"><input type="reset" name="resetBtn" value="Clear" style="cursor: pointer;"></td>
+    </tr>
+ </table>
+ </form>
+</body>

@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*------------------navigation bar-------------------*/
+.navigation-bar{
+    background-color: #b04b58;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}  
+
+.logo{
+    color: white;
+    font-size: 28px;
+}
+
+span{
+    color: #291316;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.6s;
+}
+
+nav ul li a:hover{
+    color: #501b1d;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: transparent;
+    border: 1px;
+    padding: 10px;
+    width: 200px;
+}
+
+.dropdown-content a{
+    transition: 0.3s;
+    color:#eae3e3;
+}
+
+.dropdown-content a:hover{
+    color: #501b1d;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: #b04b58;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: #6788c4;
+    width: 270px;
+    height: 300px;
+    margin: 40px;
+    border-radius: 30px;
+}
+
+.card h2,
+.card p {
+    margin-left: 10px;
+}
+
+.card-image {
+   background-color: aqua;
+   height: 180px;
+   margin-bottom: 15px; 
+}
+
+.car-1 {
+    background-image: url("malaysian_ticket.webp");
+    background-size: cover;
+}
+
+.car-2 {
+    background-image: url("international_ticket.webp");
+    background-size: cover;
+}
+
+.car-3 {
+    background-image: url(funpass_ticket.webp);
+    background-size: cover;
+}
+
+.button {
+    margin-top: 15px;
+    margin-left: 70px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(66, 187, 66);
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------footer------------------------------*/
+footer{
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 0;
+    background: #a48a8e;
+}
+
+.footer footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h2{
+    font-size: 16px;
+}
+
+.left-box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.left-box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.left-box p{
+    margin: 20px 0 0 0;
+    position: relative;
+    text-align: justify;
+}
+
+.right-box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.right-box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.right-box p{
+    margin: 20px 0 0 0;
+    position: relative;
+    text-align: justify;
+}

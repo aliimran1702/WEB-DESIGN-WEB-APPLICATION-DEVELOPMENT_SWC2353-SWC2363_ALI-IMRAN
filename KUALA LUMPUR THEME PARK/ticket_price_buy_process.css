@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(200, 187, 171);
+}
+
+.top {
+    text-align: center;
+}
+
+span {
+    color: #b75b67;
+}
